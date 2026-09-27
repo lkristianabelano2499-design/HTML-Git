@@ -1,3 +1,4 @@
+/* css reset */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,28 @@ html {
 body {
     font-family: Arial, Helvetica, sans_serif;
     line-height: 1.7;
-    color: blue;
+    color: black;
     background: white;
 }
+
+/* variabel */
+:root {
+    --primary: blue;
+    --primary-dark: blue;
+    --secondary: black;
+    --light: white;
+    --soft: black;
+    --text-soft: black;
+    --border: white;
+}
+
+
+
+
+
+
+
+
+
+
 
