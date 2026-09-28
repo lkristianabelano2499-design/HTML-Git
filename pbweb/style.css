@@ -243,9 +243,7 @@ li {
     margin: 8px 0;
 }
 
-/* ================================
-   IMAGE
-   ================================ */
+/* image */
 .image-card {
     display: flex;
     align-items: center;
