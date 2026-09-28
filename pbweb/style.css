@@ -243,9 +243,7 @@ li {
     margin: 8px 0;
 }
 
-/* ================================
-   IMAGE
-   ================================ */
+/* image */
 .image-card {
     display: flex;
     align-items: center;
@@ -264,6 +262,18 @@ li {
     transform: scale(1.03);
 }
 
+/* link */
+.github-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
 
-
+.github-link:hover {
+    color: var(--primary-dark);
+    transform: translateX(6px);
+}
 
