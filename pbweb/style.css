@@ -114,4 +114,12 @@ th {
     color: white;
 }
 
+/* form */
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0 12px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+}
 
