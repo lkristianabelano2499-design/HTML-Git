@@ -52,7 +52,22 @@ nav {
     padding: 12px;
 }
 
-
+/* mav a, hover, transition dan transform */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    transition: 0.3s;
+}
+ 
+nav a:hover {
+    background: white;
+    color: #1e3a8a;
+    transform: translateY(-3px);
+}
+ 
 
 
 
