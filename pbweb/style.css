@@ -68,7 +68,19 @@ nav a:hover {
     transform: translateY(-3px);
 }
  
-
+/* grid: 2 kolom */
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+ 
+.wide {
+    grid-column: span 2;
+}
 
 
 
