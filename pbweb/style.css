@@ -94,10 +94,33 @@ nav a:hover {
     margin-bottom: 28px;
 }
 
+/* button transform */
+.button {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 22px;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
 
+.button:hover {
+    background: var(--primary-dark);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.18);
+}
 
+.secondary {
+    background: #64748b;
+}
 
-
+.secondary:hover {
+    background: #475569;
+}
 
 
 
