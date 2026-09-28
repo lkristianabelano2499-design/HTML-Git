@@ -123,3 +123,21 @@ input[type="text"], input[type="email"], select, textarea {
     border-radius: 8px;
 }
 
+/* tombol dan link */
+.btn, input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, #1e3a8a, #7c3aed);
+    transition: 0.3s;
+}
+ 
+.btn:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    transform: scale(1.08);
+}
+
+
