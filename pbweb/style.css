@@ -27,6 +27,76 @@ body {
     --border: white;
 }
 
+/* header flexbox */
+.hero {
+    min-height: 430px;
+    color: white;
+    background: linear-gradient(135deg, #0f172a 0%, blue 55%, #38bdf8 100%);
+}
+
+.navbar {
+    width: min(1100px, 92%);
+    margin: auto;
+    padding: 22px 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+nav-links {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+    transform: translateY(-2px);
+}
+
+.hero-content {
+    width: min(1100px, 92%);
+    min-height: 330px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    color: var(--primary);
+    font-size: 0.82rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.hero .label {
+    color: white;
+}
+
+.hero-text {
+    max-width: 650px;
+    color: white;
+    font-size: 1.05rem;
+    margin-bottom: 28px;
+}
+
+
+
+
 
 
 
