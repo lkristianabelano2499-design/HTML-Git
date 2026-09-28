@@ -5,3 +5,37 @@ padding: 0;
 box-sizing: border-box;
 }
 
+/* selector dasar dan linear gradient */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background: linear-gradient(135deg, #e0ecff, #f3e8ff);
+}
+ 
+h1, h2, h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+ 
+p, ol, ul {
+    margin-bottom: 10px;
+}
+ 
+ol, ul {
+    padding-left: 20px;
+}
+ 
+img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
