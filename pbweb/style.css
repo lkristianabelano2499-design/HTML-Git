@@ -97,5 +97,21 @@ main {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
 }
 
+/* tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+ 
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+ 
+th {
+    background: #1e3a8a;
+    color: white;
+}
 
 
