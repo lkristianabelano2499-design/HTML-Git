@@ -140,4 +140,22 @@ input[type="text"], input[type="email"], select, textarea {
     transform: scale(1.08);
 }
 
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
+
+/* responsive (media query) */
+@media (max-width: 700px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+ 
+    .wide {
+        grid-column: span 1;
+    }
+}
+
+
 
