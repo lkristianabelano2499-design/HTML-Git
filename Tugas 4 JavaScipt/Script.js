@@ -68,3 +68,21 @@ function okPilihan() {
   tampil("langkah4");
 }
 
+
+function okEmail() {
+  var kotak = document.getElementById("email");
+  var pola = /^[A-Za-z0-9._-]+@[A-Za-z0-9-]+(\.[A-Za-z]{2,})+$/;
+ 
+  if (!pola.test(kotak.value.trim())) {
+    alert("Format email salah! Contoh: nama@domain.com\nSilakan masukkan ulang.");
+    kotak.value = "";
+    kotak.focus();
+    return;
+  }
+  email = kotak.value.trim();
+ 
+  document.getElementById("hasil").textContent =
+    "Hallo, nama saya " + nama + ", email " + email +
+    " saya mempunyai sejumlah " + jumlah + " pilihan yaitu " +
+    opsi.join(", ") + ", dan saya memilih " + pilihan;
+}
