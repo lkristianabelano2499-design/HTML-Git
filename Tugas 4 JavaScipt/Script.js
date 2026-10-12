@@ -13,6 +13,15 @@ function okJumlah() {
         alert("Jumlah pilihan harus bilangan bulat 1 - 10!");
     return;
     }
+
+
+    var wadah = document.getElementById("wadahTeks");
+    wadah.innerHTML = "";
+    for (var i = 1; i <= jumlah; i++) {
+    wadah.innerHTML += '<div class="baris">Pilihan ' + i + ' : <input type="text" id="teks' + i + '"></div>';
+        }
+    tampil("langkah2");
+
 }
 
 
