@@ -62,3 +62,9 @@ function okTeks() {
   tampil("langkah3");
 }
 
+
+function okPilihan() {
+  pilihan = opsi[document.getElementById("dropdown").value];
+  tampil("langkah4");
+}
+
